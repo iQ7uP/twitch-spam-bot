@@ -1,13 +1,10 @@
+let i = 0; // dont touch you bitch
+
 const TwitchBot = require('twitch-bot');
-const BOTNAME = "NICKNAME";
-const OAUTH_TOKEN = "TOKEN";
 
-
-Bot = new TwitchBot({
-	username: BOTNAME,
-	oauth: OAUTH_TOKEN,
-	channels: ["CHANNEL"]
-})
+const BOTNAME = "33kk";
+const OAUTH_TOKEN = "oauth:7mwsqqh8gx3gciymv577t8uzkdczev";
+const CHANNEL = "zakvielchannel"
 
 const startCommand = "START BOT"
 const stopCommand = "ЗАТКНИСЬ ТВАРЬ"
