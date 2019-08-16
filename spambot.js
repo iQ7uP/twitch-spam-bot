@@ -5,7 +5,7 @@ const CHANNEL = "zakvielchannel"
 const startCommand = "START BOT"
 const stopCommand = "ЗАТКНИСЬ ТВАРЬ"
 const disableCommand = "ЗАТКНИСЬ НАВСЕГДА"
-let   text = ("D: ".repeat(15) + " (ТЕКСТ ТЕКСТ АТАТАТА #$i$) ").repeat(4) + " для остановки бота на 5 минут напишыте " + stopCommand
+let   text = ("D: ".repeat(15) + " (msg #$i$) ").repeat(4) + " для остановки бота на 5 минут напишыте " + stopCommand
 const delay = 2000
 const autowaittime = 5 * 60 * 1000
 
