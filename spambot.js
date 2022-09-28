@@ -1,12 +1,12 @@
 const TwitchBot = require('twitch-bot');
 const BOTNAME = "NICKNAME";
-const OAUTH_TOKEN = "TOKEN";
+const OAUTH_TOKEN = "oauth:mtn266copizc11gxaiz2rex40gtuy0";
 
 function TEMP_TEST() {
 	Bot = new TwitchBot({
 		username: BOTNAME,
-		oauth: OAUTH_TOKEN,
-		channels: ["CHANNEL"]
+		oauth: oauth:mtn266copizc11gxaiz2rex40gtuy0,
+		channels: ["DID_I_DO_THATT_"]
 	})
 	
 	let startCommand = "START BOT"
